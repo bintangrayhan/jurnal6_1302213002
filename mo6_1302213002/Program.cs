@@ -36,5 +36,11 @@ class program
         video8.printvideodetails();
         video9.printvideodetails();
         video10.printvideodetails();
+
+        SayaTubeUser user = new SayaTubeUser("bintang rayhan");
+        user.Addvideo(video1);
+        user.Addvideo(video2);
+        user.Addvideo(video3);
+        user.printAllvideo();
     }
 }

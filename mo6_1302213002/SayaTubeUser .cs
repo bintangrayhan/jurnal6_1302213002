@@ -31,10 +31,16 @@ namespace mo6_1302213002
             } 
             return jumlah;
         }
-        //public void Addvideo(SayaTubeVideo)
-        //{
-            //this.uploudedVideos[];
-        //}
+        public void Addvideo(SayaTubeVideo video)
+        {
+            this.uploudedVideos.Add(video);
+        }
+        public void printAllvideo()
+        {
+            Console.WriteLine( id);
+            Console.WriteLine(username);
+            Console.WriteLine(GetTotalVideoPlayCount());  
+        }
 
 
     }
